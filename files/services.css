@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-color: rgb(42, 42, 42); */
+    z-index: -1;
+    display: flex;
+   
+}
+#main_page{
+    display: flex;
+    
+}
+
+#nav {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: grid;
+    grid-template-columns: 20vw;
+    grid-template-rows: 35vh 10vh 10vh 10vh 10vh 10vh ;
+    height: 100vh;
+    position: fixed;
+}
+
+#me {
+    grid: span 1;
+}
+#me img {
+    position: relative;
+    margin-top: 7.7vh;
+    margin-left: 7.5vw;
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    transition: 0.5s;
+}
+#me img:hover {
+    transform: scale(1.5);
+}
+#me h2 {
+    position: relative;
+    margin-top: 3vh;
+    margin-left: 6.4vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: white;
+}
+
+.ref {
+    display: flex;
+    gap: 30px;
+    grid: span 1;
+}
+.ref img {
+    position: relative;
+    margin-top: 3.4vh;
+    margin-left: 5vw;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+}
+.ref a {
+    padding-top: 35px;
+    color: white;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+}
+#scrollable_pg{
+    position: absolute;
+    top: 0vh;
+    left: 20vw;
+}
+#heading {
+    display: flex;
+    align-items: center;
+    height: 20vh;
+    width: 80vw;
+    color: rgb(255, 255, 255);
+    background-color: rgb(56, 55, 55);
+}
+#heading h1 {
+    padding-left: 100px;
+    font-size: 80px;
+}
+#teen_dabbe{
+    height: 80vh;
+    width: 80vw;
+    display: flex;
+    gap: 2vw;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5vh;
+    background-color: grey;
+}
+.boxes{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: aliceblue;
+    padding: 20px;
+    height: 60vh;
+    width: 21vw;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.boxes h2{
+    font-size: 38px ;
+}
+.boxes p {
+    font-size: 19px;
+}
+.boxes a {
+   text-decoration: none;
+   font-size: 17px;
+   color:black;
+}
+.boxes button {
+    padding: 0;
+    height: 4vh;
+    width: 10vw;
+    border-radius: 7px;
+}
+
+#box1{
+    margin-top: 9vh;
+}
+#box2{
+    margin-top: 1vh ;
+}
+#box3{
+    margin-top: 0vh ;
+}
