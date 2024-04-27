@@ -194,7 +194,7 @@ body {
 #clients h1 {
     position: relative;
     margin-top: 3vh;
-    margin-left: 3.5vw;
+    margin-left: 3vw;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 700;
     font-size: 50px;
@@ -202,7 +202,7 @@ body {
 #clients p {
     position: relative;
     margin-top: 1.7vh;
-    margin-left: 2.4vw;
+    margin-left: 4vw;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 700;
     font-size: 15px;
@@ -229,7 +229,7 @@ body {
 #experience small {
     position: relative;
     margin-top: 1vh;
-    margin-left: 4vw;
+    margin-left: 3vw;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 700;
     font-size: 15px;
@@ -237,7 +237,7 @@ body {
 #experience  p {
     position: relative;
     margin-top: 1vh;
-    margin-left: 2vw;
+    margin-left: 4vw;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 700;
     font-size: 15px;
